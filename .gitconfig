@@ -1,0 +1,65 @@
+[safe]
+	directory = /homes/cs240/repos/ahaugan/gdb-tutorial.git
+	directory = /homes/cs240/repos/ahaugan/hw0.git
+	directory = /homes/cs240/repos/ahaugan/hw1.git
+	directory = /homes/cs240/repos/ahaugan/hw2.git
+	directory = /homes/cs240/repos/ahaugan/hw3.git
+	directory = /homes/cs240/repos/ahaugan/hw4.git
+	directory = /homes/cs240/repos/ahaugan/hw5.git
+	directory = /homes/cs240/repos/ahaugan/hw6.git
+	directory = /homes/cs240/repos/ahaugan/hw7.git
+	directory = /homes/cs240/repos/ahaugan/hw8.git
+	directory = /homes/cs240/repos/ahaugan/hw9.git
+	directory = /homes/cs240/repos/ahaugan/hw10.git
+	directory = /homes/cs240/repos/ahaugan/hw11.git
+	directory = /homes/cs240/repos/ahaugan/hw12.git
+	directory = /homes/cs240/repos/ahaugan/hw13.git
+	directory = /homes/cs240/repos/ahaugan/lab1.git
+	directory = /homes/cs240/repos/ahaugan/lab2.git
+	directory = /homes/cs240/repos/ahaugan/lab3.git
+	directory = /homes/cs240/repos/ahaugan/lab4.git
+	directory = /homes/cs240/repos/ahaugan/lab5.git
+	directory = /homes/cs240/repos/ahaugan/lab6.git
+	directory = /homes/cs240/repos/ahaugan/lab7.git
+	directory = /homes/cs240/repos/ahaugan/lab8.git
+	directory = /homes/cs240/repos/ahaugan/lab9.git
+	directory = /homes/cs240/repos/ahaugan/lab10.git
+	directory = /homes/cs240/repos/ahaugan/lab11.git
+	directory = /homes/cs240/repos/ahaugan/lab12.git
+	directory = /homes/cs240/repos/ahaugan/lab13.git
+	directory = /homes/cs240/repos/ahaugan/lab14.git
+[user]
+	name = Alex Haugan
+	email = alexander.haugan@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[pull]
+  rebase = true
+
+# ~/.gitconfig: read by git every time it runs.
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = vim
+
+[pull]
+	rebase = true
+
+[color]
+	ui = auto
+
+# Aliases: `git st` runs `git status`, and so on.
+[alias]
+	st = status
+	br = branch
+	sw = switch
+	last = log -1 HEAD --stat
+	# One line per commit, with a branch graph:
+	lg = log --oneline --graph --decorate --all
+	# Undo `git add file` (keeps your edits, just unstages them):
+	unstage = restore --staged --
+
